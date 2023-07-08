@@ -1,0 +1,143 @@
+@page{
+    /* margin: 1cm .5cm; */
+    margin: .5cm .5cm;
+}
+body{
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 0px;
+    padding: 0px;
+}
+h3 {
+    display: block;
+    font-size: 1.17em;
+    font-weight: bold;
+}
+h4 {
+    display: block;
+    margin-block-start: 0.2px;
+    margin-block-end: 0.2px;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+    font-weight: bold;
+}
+h5 {
+    display: block;
+    font-size: 0.83em;
+    margin-block-start: 0.67em;
+    margin-block-end: 0.67em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+    font-weight: bold;
+}
+.color-cabecera{
+    background-color: #bbb6b6;
+}
+/* ------------------------------ */
+.contenedo-general{
+    border: #000 1px solid;
+}
+#div-header{
+    position: relative;
+    width: 100%;
+    height: 80px;
+    background-color: #ccc;
+    border-bottom: #000 solid 1px;
+}
+img{
+    width: 20%;
+    position: absolute;
+    padding-top: 5px;
+    padding-left: 5px;
+}
+#div-header-1{
+    position: relative;
+    width: 65%;
+    /* background-color: #f00; */
+    margin-top: -90px;
+    margin-left: 180px;
+}
+#div-header-2{
+    position: relative;
+    width: 30%;
+    /* background-color: #f00; */
+    margin-top: -30px;
+    margin-left: 280px;
+}
+#div-header2{
+    position: relative;
+    /* background-color: red; */
+    width: 100%;
+    height: 10px;
+    border-bottom: 1px solid #000;
+}
+#titulo{
+    position: relative;
+    /* background-color: #bbb6b6; */
+    width: 30%;
+    margin-top: 5px;
+    margin-left: 270px;
+}
+#titulo2{
+    position: relative;
+    /* background-color: #bbb6b6; */
+    width: 25%;
+    height: 15px;
+    margin-top: -55px;
+    margin-left: 580px;
+}
+table{
+    border-collapse: collapse;
+}
+th,td, tr{
+    border: #000 solid 1px;
+}
+#div-body{
+    position: relative;
+    width: 100%;
+    height: auto;
+    /* background-color: greenyellow; */
+}
+#div-body-1{
+    width: 43.37%;
+    height: 180px;
+    /* background-color: blue; */
+}
+#div-body-2{
+    position: relative;
+    width: 56.63%;
+    height: 180px;
+    /* background-color: #f00; */
+    margin-top: -181px;
+    margin-left: 326px;
+}
+
+#div-foot{
+    position: relative;
+    width: 100%;
+    height: 170px;
+}
+#div-foot-1{
+
+    width: 43%;
+    height: 170x;
+    border-right: 1px solid #000;
+    /* background-color: blue; */
+}
+#div-foot-2{
+    position: relative;
+    width: 57%;
+    height: 10x;
+    /* border: 1px solid #000; */
+    /* background-color: #f00; */
+    margin-top: -60px;
+    margin-left: 325px;
+}
+#firma-jefe{
+    /* background-color: aqua; */
+    /* position: relative; */
+    margin-top: 130px;
+    margin-left: 110px;
+}
+#firma-gestor{
+    margin-left: 140px;
+}
